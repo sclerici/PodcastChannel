@@ -268,6 +268,9 @@ footer p{
     padding: 30px;
 }
 
+
+/* RWDS*/
+
 @media screen and (max-width: 768px){
 
     #inicio{
@@ -276,9 +279,9 @@ footer p{
     }
 
     #inicio p{
-        font-size: 12px;
-        width: 550px;
-        margin-left: 5px;
+        font-size: 13px;
+        width: 100%;
+        margin-left: 15px;
     }
     .hello_world{
         font-size: 32px;
@@ -327,7 +330,7 @@ footer p{
 
     header label{
         display: block;
-        margin-right: 280px;
+        margin-right: 0px;
     }
 
     #bgmenu:checked ~ .menu{
@@ -347,7 +350,7 @@ footer p{
     }
 
     .episodios iframe{
-        width: 60%;
+        width: 95%;
         margin-left: 10px;
         margin-top: 20px;
     }
@@ -370,7 +373,7 @@ footer p{
     }
     
     .from_div p{
-        width: 55%;
+        width: 90%;
         font-size: 13px;
         margin-bottom: -150px;
         line-height: 15px;
@@ -389,7 +392,7 @@ footer p{
     }
     
     .invitados img{
-        width: 100%;
+        width: 750px;
         display: block;
     }
     
@@ -408,7 +411,7 @@ footer p{
         display: flex;
         padding: 20px;
         width: 50%;
-        margin-left: 200px;
+        margin-left: 250px;
         flex-direction: column;
         align-content: center;
         justify-content: center;
@@ -453,11 +456,11 @@ footer p{
         width: 40%;
         padding: 10px;
         font-weight: normal;  
-        margin-left: 120px;
+        margin-left: 180px;
     }
     
     .news .button{
-        margin-left: -90px;
+        margin-left: -30px;
         width: 220px;
     }
 
@@ -469,7 +472,7 @@ footer p{
         display: flex;
         justify-content: center;
         align-items: center;
-        transform: translateX(-348px);
+        transform: translateX(-269px);
         margin-bottom: 15px;
     }
     
@@ -480,24 +483,50 @@ footer p{
 
     footer p{
         padding-top: 20px;
-        transform: translateX(120px);
+        transform: translateX(180px);
         font-size: 14px;
         font-weight: normal;
     }
 
     }
 
+    /* IPH X*/
+
     @media screen and (max-width: 380px){
-        .menu{
-            background-color: blue;
-            position: absolute;
-            width: 100%;
-            top: 70px;
-            right: -30px;
-            z-index: 1;
-            height: 220px;
-            transition: ease-in-out 1s;
-            margin-top: -80%;
+        
+    header label{
+        position: absolute;
+        margin: auto;
+        }
+
+    #inicio{
+        padding: 5px;
+    }
+
+    #inicio p{
+        line-height: 10px;
+        font-weight: 500;
+        display: inline;
+
+    }
+
+    .button{
+        width: 260px;
+        height: 45px;
+        font-size: 14px;
+        margin: 20px 20px;
+        }
+        
+    .menu{
+        background-color: blue;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: -30px;
+        z-index: 1;
+        height: 220px;
+        transition: ease-in-out 1s;
+        margin-top: -80%;
     }
 
     .phone{
@@ -561,27 +590,218 @@ footer p{
         display: block;
     }
     
-    .icons_container{
-        transform: translateX(15px);
+    footer .icons_container{
+        transform: translateX(30px);
         position: relative;
         bottom: 80px;
-
     }
     
     .icons_container a{
         margin-right: 5px;
         color: rgb(31, 30, 30); 
+
+    }
+
+    .episodios iframe{
+        width: 90%;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .phone{
+        width: 320px;
+        margin-left: 120px;
+    }
+    
+    .from_div p{
+        width: 100%;
+        font-size: 13px;
+        margin-bottom: -150px;
+        line-height: 15px;
+    }
+
+    .invitados{
+        display: block;
+        width: 100%;
+    }
+
+    .invitados img{
+        width: 100%;
+    }
+
+    #guests h1{
+        font-size: 35px;
+        font-weight: normal;
+        line-height: 35px;
+        padding: 30px;
+        margin-left: -10px;
     }
 
     footer p{
-        font-size: 15px;
+        padding-top: 20px;
+        transform: translateX(160px);
+        font-size: 14px;
         font-weight: normal;
-        width: 100%;
-        padding-top: 10px;
-        position: relative;
-        right: 150px;
-        margin: 10px;
     }
-    
 
+    }
+
+    /* IPH PLS, IPH 11 MX */
+
+    @media screen and (max-width: 420px){
+        #inicio p{
+        font-size: 10px;
+        width: 90%;
+        margin-left: 5px;
+        display: inline;
+        line-height: 10px;
+     }
+   
+       .button{
+           width: 260px;
+           height: 45px;
+           font-size: 14px;
+           margin: 20px 20px;
+           }
+           
+       .menu{
+               background-color: blue;
+               position: absolute;
+               width: 100%;
+               top: 70px;
+               right: -30px;
+               z-index: 1;
+               height: 220px;
+               transition: ease-in-out 1s;
+               margin-top: -80%;
+       }
+   
+       header label{
+           margin-left: 330px;
+       }
+   
+       .phone{
+           width: 400px;
+           z-index: 1;
+           transform: translateY(-180px);
+           position: relative;
+           right: 200px;
+       }
+   
+       .topics_container{
+           display: flex;
+           padding: 20px;
+           width: 50%;
+           margin-left: 120px;
+           flex-direction: column;
+           align-content: center;
+           justify-content: center;
+       }
+       
+      .topics h1{
+           padding: 20px;
+           width: 100%;
+           font-size: 32px;
+           font-weight: 400;
+           text-align: center;
+       }
+       
+       .topics_container p{
+           font-size: 20px;
+           font-weight: 600;
+           line-height: 25px;
+           padding-top: 10px;
+           position: static;
+           text-align: center;
+           transform: translateX(-25px);
+           width: 100%;
+       }
+   
+       .topics_container img{
+           margin-top: 20px;
+       }
+   
+       .news div{
+           margin-top: 25px;
+       }
+       .news h1{
+           color: white;
+           font-size: 28px;
+           width: 100%; 
+           margin-left: 0px;
+       }
+       
+       .news .button{
+           width: 220px;
+           margin-left: -160px;
+       }
+   
+       footer{
+           height: 100px;
+           display: block;
+       }
+       
+       .icons_container{
+           transform: translateX(15px);
+           position: relative;
+           bottom: 80px;
+   
+       }
+       
+       .icons_container a{
+           margin-right: 5px;
+           color: rgb(31, 30, 30); 
+       }
+   
+       footer p{
+           font-size: 15px;
+           font-weight: normal;
+           width: 100%;
+           padding-top: 10px;
+           position: relative;
+           right: 130px;
+           margin: 10px;
+       }
+   
+       .episodios iframe{
+           width: 90%;
+           margin-left: 10px;
+           margin-top: 20px;
+       }
+   
+       .phone{
+           width: 320px;
+           margin-left: 120px;
+       }
+       
+       .from_div p{
+           width: 100%;
+           font-size: 13px;
+           margin-bottom: -150px;
+           line-height: 15px;
+       }
+   
+       .invitados{
+           display: block;
+           width: 100%;
+       }
+
+       .invitados img{
+           width: 100%;
+       }
+   
+       #guests h1{
+           font-size: 35px;
+           font-weight: normal;
+           line-height: 35px;
+           padding: 30px;
+           margin-left: -10px;
+       }
+   
+       footer p{
+           padding-top: 20px;
+           transform: translateX(180px);
+           font-size: 14px;
+           font-weight: normal;
+       }
     }
